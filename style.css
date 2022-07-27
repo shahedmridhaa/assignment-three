@@ -45,11 +45,25 @@ body{
 
 
 
-
-
-
-
 /* ==========Responsive============== */
-@media screen and (max-width:576px){
-   
+@media screen and (min-width:0px) and (max-width:576px){
+  .cource-item{
+    flex-direction: column;
+    width: 100%;
+  }
+  .cource-item-img{
+    width: 100%;
+    height: auto;
+  }
+  .cource-item-img img{
+    width: 100%;
+    height: auto;
+  }
+  .cource-item-content {
+    padding: 35px 0 28px 0;
+}
+.cource-item-content p {
+  padding: 10px 0 2px 0;
+}
+
 }
